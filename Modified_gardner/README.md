@@ -4,6 +4,10 @@ CNV calling pipeline based on package "ExomeDepth"
 
 **Make sure you know what genome build your sequences were aligned to and use the appropriate references and data frames. ExomeDepth comes with data frames for hg19 and this folder has an "exons_hg38.Rda" data frame for hg38-aligned sequences.**
 
+### "ExomeDepth_ind.R"
+
+ExomeDepth script for analyzing variants for one sample. (Minor changes from the original ExomeDepth.R script) This script assumes an appropriate reference set has already been created and the sequences were aligned using hg38. 
+
 ### "ExomeDepth_ind.sh"
 
 Example script to run ExomeDepth on HPC cluster for one sample. Edit: 
