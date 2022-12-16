@@ -12,7 +12,11 @@ Example script to run ExomeDepth on HPC cluster for one sample. Edit:
 * cd containing bam and bai files
 * names of bam and bai files
 
+### "gene_list_filter.R"
+
+Filters ExomeDepth output labeled with gene IDs (HGNC) by list within script. 
 
 ### "paired_CNVcounts.py"
 
 Used for the donor recipient project to get the total number of CNVs called for related donor-recipient pairs. Analyzes all files inside the folder containing the script. 
+
