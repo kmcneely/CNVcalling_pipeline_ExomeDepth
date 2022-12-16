@@ -13,6 +13,6 @@ Example script to run ExomeDepth on HPC cluster for one sample. Edit:
 * names of bam and bai files
 
 
-### "paired_CNVcalls.py"
+### "paired_CNVcounts.py"
 
 Used for the donor recipient project to get the total number of CNVs called for related donor-recipient pairs. Analyzes all files inside the folder containing the script. 
